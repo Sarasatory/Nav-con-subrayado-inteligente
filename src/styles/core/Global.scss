@@ -1,0 +1,16 @@
+.white-space-jump {
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -o-pre-wrap;
+}
+
+.snap-container {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.snap-section {
+  scroll-snap-align: start;
+}
