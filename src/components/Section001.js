@@ -4,18 +4,19 @@ const Section001 = () => {
   return (
     <section className='section001 snap-section' id='section001'>
       <div className='container'>
-        <h1 className='title-h1'>Section 001</h1>
-        <h1 className='title-h2'>Hero</h1>
-        <h1 className='title-p'>
+        <h1 className='title-h1'>Navigation menu with smart underline</h1>
+        <h2 className='title-h2'>Section 001</h2>
+
+        <p className='text-p'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Necessitatibus asperiores vero sunt delectus perferendis quisquam quam
           consequuntur debitis ratione libero, dolores sapiente. Distinctio,
           fugiat? Blanditiis commodi iure incidunt tenetur accusantium.
-        </h1>
+        </p>
       </div>
-      <a href='#section002' className='scrolling-down'>
+      <a href='#section002' className='scroll-down'>
         Scroll Down
-        <div className='scrolling-down__rectangle'></div>
+        <div className='scroll-down__rectangle'></div>
       </a>
     </section>
   );

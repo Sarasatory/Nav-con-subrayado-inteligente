@@ -9,8 +9,17 @@
   scroll-behavior: smooth;
   height: 100vh;
   overflow: scroll;
+
+  @media (min-width: $break_point_tablet) {
+  }
 }
 
 .snap-section {
-  scroll-snap-align: start;
+  @media (min-width: $break_point_tablet) {
+    scroll-snap-align: start;
+  }
+}
+
+.hidden {
+  display: none;
 }

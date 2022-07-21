@@ -4,9 +4,9 @@ const Section003 = () => {
   return (
     <section className='section003 snap-section' id='section003'>
       <div className='container'>
-        <h1 className='title-h1'>Section 003</h1>
-        <h1 className='title-h2'>;)</h1>
-        <h1 className='title-p'>
+        <h2 className='title-h2'>Section 003</h2>
+        <h3 className='title-h3'>:)</h3>
+        <h1 className='text-p'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A explicabo
           quisquam, impedit debitis blanditiis iste quasi, magnam minus dolorum
           quod temporibus necessitatibus officiis, tempore consectetur sequi

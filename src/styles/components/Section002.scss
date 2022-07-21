@@ -17,29 +17,72 @@
   background-color: rgba(247, 136, 0, 0.6);
 
   & .container {
-    width: 60%;
-    padding: 24rem;
+    width: 90%;
+    padding: 16rem;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-    font-size: 124rem;
     color: $col_white;
 
-    & .title-h1 {
-      padding: 20rem;
-      font-size: 80rem;
+    @media (min-width: $break_point_tablet) {
+      padding: 24rem;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
+
     & .title-h2 {
-      padding: 20rem;
-      font-size: 40rem;
+      padding: 10rem 20rem;
+      margin-bottom: 20rem;
+
+      font-size: 60rem;
+      text-align: center;
+      text-transform: uppercase;
+
+      @media (min-width: $break_point_tablet) {
+        font-size: 70rem;
+      }
+      @media (min-width: $break_point_desktop) {
+        font-size: 80rem;
+      }
     }
-    & .title-p {
-      padding: 20rem;
-      font-size: 20rem;
+
+    & .title-h3 {
+      padding: 10rem 20rem;
+      margin-bottom: 20rem;
+
+      font-size: 30rem;
+      text-align: center;
+
+      color: $col_rojo_inactive;
+      opacity: 0.6;
+
+      @media (min-width: $break_point_tablet) {
+        font-size: 40rem;
+      }
+      @media (min-width: $break_point_desktop) {
+        font-size: 60rem;
+      }
+    }
+    & .text-p {
+      width: 70%;
+      padding: 10rem 20rem;
+      margin-bottom: 20rem;
+
+      font-size: 16rem;
       font-weight: $font_w_regular;
+
+      @media (min-width: $break_point_tablet) {
+        font-size: 20rem;
+      }
+      @media (min-width: $break_point_desktop) {
+        font-size: 24rem;
+      }
     }
   }
 }
