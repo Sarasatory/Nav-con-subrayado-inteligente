@@ -7,11 +7,13 @@ const Section001 = () => {
         <h1 className='title-h1'>Navigation menu with smart underline</h1>
         <h2 className='title-h2'>Section 001</h2>
 
+        <p className='text-p'>Hello!</p>
+
         <p className='text-p'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Necessitatibus asperiores vero sunt delectus perferendis quisquam quam
-          consequuntur debitis ratione libero, dolores sapiente. Distinctio,
-          fugiat? Blanditiis commodi iure incidunt tenetur accusantium.
+          The grace of this little project is in the intelligent underlining of
+          the navigation menu. This can only be seen on screens larger than
+          768px, so if you're on a mobile device, I recommend you switch to a
+          larger screen so you can see and play with it ;)
         </p>
       </div>
       <a href='#section002' className='scroll-down'>
